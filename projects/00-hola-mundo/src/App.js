@@ -7,22 +7,27 @@ export function App () {
             <TwitterFollowCard 
                 userName="midudev" 
                 name="Soy midevu" 
-                isFollowing={true}
-            />
+                isFollowing={true}>
+                    midudev
+            </TwitterFollowCard>
+
             <TwitterFollowCard 
                 userName="dog" 
                 name="Guau Guau" 
-                isFollowing={false}
-            />
+                isFollowing={false}>
+                    dog
+            </TwitterFollowCard>
+            
             <TwitterFollowCard 
                 userName="deviantart/cat" 
                 name="Miau michi" 
-                isFollowing
-            />
-            <TwitterFollowCard 
-                userName="shakira" 
-                name="waka waka" 
-            />
+                isFollowing>
+                    deviantart/cat
+            </TwitterFollowCard>
+
+            <TwitterFollowCard userName="shakira" >
+                    Waka waka
+            </TwitterFollowCard>
         </>
     )
 }
